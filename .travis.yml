@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.2.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: nWJWgauEaKXeoMyokRwTDlz1oSTLfxlLw78O2c1pSm7zAOqdu7LlPo14oWV8bNaJ3MArxhZO8cPbKw8goosSJTyql1JQ+5nPz+ovk18XNsQG8qd57m0szucCJRjI4Rih9fyCnRk8jGmhL0AfvYS5PNFo6eJBh2JONzzIIGzONFZVCGZaoF67W5HXxU0chJBXJo6tufzqRDG15H5k7JkOhdj3Hdwkb0rz4HT4gJoKAWP5wf7/eP2xe9Ki1zS8nzMwkXlGyIoVQYFHJnQRmn74bhWKUvuurMtQzC4VObRA4mPs6Gx9/x4OYue40FzXvpYddnIsI7IT+yXa2C/7d9gbC/gORnxlyPUxZXcOhgm5mbZsb8wGqECKjin2/VzHKpp32lK5+k7ezHyuzSL+YY7FUWM1sQOI1O9fRBysBTKxaJRAYzT7PSdB6Vjv0hIuExQm3JgcBK687yTb2aB22m29KoXks7SxYbzIB6d8hNrq1BEbkPvqGveV+QpZnxTmwu06MvMxgw+oreXsQ9fcrsgOgYUWaHAzUj2ODrTu/6R+t0hVNEZqIwxaHBWmVNWVaUymMBEVE2dgCF1oz72lJAvgo4y/FEC7o49N4dZUt55fmH3Su+FfRPLs5F5n5DvZbpvObDhDe2tznJtYa23Q7J9+C5Az+wdH8/FZOZ4q9/gv9T8=
+  app: safe-cliffs-92501
+  on:
+    repo: terra-yucco/enpit_team_practice
